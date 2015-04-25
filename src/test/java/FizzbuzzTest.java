@@ -28,28 +28,13 @@ public class FizzbuzzTest {
     }
 
     @Test
-    public void shouldReturnFizzFor6() throws Exception {
-        assertThat(fizzBuzzOf(6)).isEqualTo("fizz");
-    }
-
-    @Test
     public void shouldReturnBuzzFor5() throws Exception {
         assertThat(fizzBuzzOf(5)).isEqualTo("buzz");
     }
 
     @Test
-    public void shouldReturnBuzzFor10() throws Exception {
-        assertThat(fizzBuzzOf(10)).isEqualTo("buzz");
-    }
-
-    @Test
     public void shouldReturnFizzbuzzFor15() throws Exception {
         assertThat(fizzBuzzOf(15)).isEqualTo("fizzbuzz");
-    }
-
-    @Test
-    public void shouldReturnFizzbuzzFor30() throws Exception {
-        assertThat(fizzBuzzOf(30)).isEqualTo("fizzbuzz");
     }
 
     private String fizzBuzzOf(int number) {

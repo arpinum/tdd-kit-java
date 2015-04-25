@@ -6,12 +6,12 @@ public class Fizzbuzz {
     public List<String> elements() {
         List<String> elements = Lists.newArrayList();
         for (int i = 1; i < 101; i++) {
-            elements.add(compute(i));
+            elements.add(valueOf(i));
         }
         return elements;
     }
 
-    private String compute(int number) {
+    private String valueOf(int number) {
         if (number % 15 == 0) {
             return "fizzbuzz";
         }
