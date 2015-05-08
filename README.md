@@ -10,11 +10,11 @@
 
 ## Libraries documentation
 
-* Assertion api: [assertj]
-* Test runner: [junit]
-* Linter: [pmd]
+* Assertion api: [AssertJ]
+* Test runner: [JUnit]
+* Linter: [PMD]
 * Coverage: [JaCoCo]
-* Mock api: [mockito]
+* Mock api: [Mockito]
 
 ## License
 
@@ -28,10 +28,10 @@ You should have received a copy of the GNU General Public License along with **T
 
 
 [Travis status]: https://travis-ci.org/arpinum/tdd-kit-java.png?branch=master
-[assertj]: https://joel-costigliola.github.io/assertj
-[junit]: http://junit.org
-[pmd]: http://pmd.sourceforge.net
+[AssertJ]: https://joel-costigliola.github.io/assertj
+[JUnit]: http://junit.org
+[PMD]: http://pmd.sourceforge.net
 [JaCoCo]: http://jacoco.org
-[mockito]: http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html
+[Mockito]: http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html
 [http://www.gnu.org/licenses/lgpl.html]: http://www.gnu.org/licenses/lgpl.html
 
