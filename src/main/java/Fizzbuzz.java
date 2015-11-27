@@ -5,7 +5,7 @@ import java.util.List;
 public class Fizzbuzz {
     public List<String> elements() {
         List<String> elements = Lists.newArrayList();
-        for (int i = 1; i < 101; i++) {
+        for (int i = 1; i <= 100; i++) {
             elements.add(valueOf(i));
         }
         return elements;

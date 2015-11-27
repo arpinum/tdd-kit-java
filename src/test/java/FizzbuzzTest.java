@@ -13,27 +13,27 @@ public class FizzbuzzTest {
     }
 
     @Test
-    public void shouldReturn100Elements() throws Exception {
+    public void should_return_100_elements() throws Exception {
         assertThat(elements.size()).isEqualTo(100);
     }
 
     @Test
-    public void shouldReturn1For1() throws Exception {
+    public void should_return_1_for_1() throws Exception {
         assertThat(fizzBuzzOf(1)).isEqualTo("1");
     }
 
     @Test
-    public void shouldReturnFizzFor3() throws Exception {
+    public void should_return_fizz_for_3() throws Exception {
         assertThat(fizzBuzzOf(3)).isEqualTo("fizz");
     }
 
     @Test
-    public void shouldReturnBuzzFor5() throws Exception {
+    public void should_return_buzz_for_5() throws Exception {
         assertThat(fizzBuzzOf(5)).isEqualTo("buzz");
     }
 
     @Test
-    public void shouldReturnFizzbuzzFor15() throws Exception {
+    public void should_return_fizzbuzz_for_15() throws Exception {
         assertThat(fizzBuzzOf(15)).isEqualTo("fizzbuzz");
     }
 
