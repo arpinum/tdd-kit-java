@@ -2,11 +2,15 @@
 
 ## Run unit tests
 
-    gradle test
-    
+    ./gradlew test
+
+(use .bat on windows)
+
 ## Run lint, unit tests and coverage
 
-    gradle    
+    ./gradlew
+
+(use .bat on windows)
 
 ## Libraries documentation
 
@@ -19,7 +23,6 @@
 ## License
 
 [MIT](LICENSE)
-
 
 [Travis status]: https://travis-ci.org/arpinum/tdd-kit-java.png?branch=master
 [AssertJ]: https://joel-costigliola.github.io/assertj
