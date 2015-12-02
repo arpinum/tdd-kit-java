@@ -20,6 +20,14 @@
 * Coverage: [JaCoCo]
 * Mock api: [Mockito]
 
+## Reports
+
+* Test html reports: `build/reports/tests/index.html`
+* JaCoCo html reports: `build/reports/jacoco/test/html/index.html`
+* PMD html reports:
+  * `build/reports/pmd/main.html`
+  * `build/reports/pmd/test.html`
+
 ## License
 
 [MIT](LICENSE)
