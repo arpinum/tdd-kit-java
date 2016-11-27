@@ -13,14 +13,14 @@ repositories {
 }
 
 dependencies {
-    compile 'com.google.guava:guava:19.0'
+    compile 'com.google.guava:guava:20.0'
 
     testCompile('junit:junit:4.12') {
         transitive = false
     }
     testCompile 'org.mockito:mockito-all:1.10.19'
     testCompile 'org.assertj:assertj-core:3.5.2'
-    testCompile 'org.assertj:assertj-guava:3.0.0'
+    testCompile 'org.assertj:assertj-guava:3.1.0'
 }
 
 pmd {
@@ -42,7 +42,7 @@ task cover(dependsOn: jacocoTestReport)
 task lint(dependsOn: check)
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '3.1'
+    gradleVersion = '3.2.1'
 }
 
 defaultTasks 'clean', 'lint', 'test', 'cover'
