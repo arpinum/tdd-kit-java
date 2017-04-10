@@ -22,7 +22,7 @@
 
 ## Reports
 
-* Test html reports: `build/reports/tests/index.html`
+* Test html reports: `build/reports/tests/test/index.html`
 * JaCoCo html reports: `build/reports/jacoco/test/html/index.html`
 * PMD html reports:
   * `build/reports/pmd/main.html`
